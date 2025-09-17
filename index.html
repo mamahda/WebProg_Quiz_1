@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz 1 Router</title>
+    <style>
+      nav a {
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/quiz1" data-link>Home</a>
+      <a href="/quiz1/profile" data-link>Profile</a>
+      <a href="/quiz1/hometown" data-link>Hometown</a>
+      <a href="/quiz1/food" data-link>Local Food</a>
+      <a href="/quiz1/tourist" data-link>Tourist Places</a>
+    </nav>
+
+    <div id="app"></div>
+
+    <script type="module">
+      import Home from "./home.js";
+
+      const routes = {
+        "/quiz1": Home(),
+        "/quiz1/profile": "<h1>Profile</h1><p>This is your profile page.</p>",
+        "/quiz1/hometown": "<h1>Hometown</h1><p>Learn about your hometown here.</p>",
+        "/quiz1/food": "<h1>Local Food</h1><p>Explore delicious local food.</p>",
+        "/quiz1/tourist": "<h1>Tourist Places</h1><p>Discover tourist attractions.</p>",
+      };
+
+      function navigateTo(url) {
+        history.pushState(null, null, url);
+        router();
+      }
+
+      function router() {
+        const path = location.pathname;
+        document.getElementById("app").innerHTML =
+          routes[path] || "<h1>404 - Page Not Found</h1>";
+      }
+
+      document.addEventListener("click", (e) => {
+        if (e.target.matches("[data-link]")) {
+          e.preventDefault();
+          navigateTo(e.target.getAttribute("href"));
+        }
+      });
+
+      window.addEventListener("popstate", router);
+
+      window.addEventListener("DOMContentLoaded", router);
+    </script>
+  </body>
+</html>
