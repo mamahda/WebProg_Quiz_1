@@ -15,7 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Navbar */
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
@@ -27,6 +26,18 @@ body {
   }
 }
 
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Navbar */
 .navbar-wrapper {
    position: fixed;
   top: 20px;
@@ -102,10 +113,11 @@ h1 {
   color: var(--white);
   font-weight: 800;
   font-size: clamp(2.5rem, 6vw, 60px);
-  animation: zoomIn 3s forwards;
+  animation: zoomIn 3s forwards 0.5s;
   width: 100%;
   max-width: 800px;
   margin-bottom: 20px;
+  opacity: 0;
 }
 
 h2 {
@@ -115,8 +127,10 @@ h2 {
   background: var(--gradient-text) border-box;
   -webkit-background-clip: text;
   background-clip: text;
+  animation: zoomIn 1s forwards;
   color: transparent;
   width: 100%;
   max-width: 800px;
   margin-bottom: 15px;
+  opacity: 0;
 }
