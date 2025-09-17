@@ -1,4 +1,7 @@
 {
+  "redirects": [
+    { "source": "/", "destination": "/quiz1/", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/quiz1", "destination": "/quiz1/index.html" },
     { "source": "/quiz1/(.*)", "destination": "/quiz1/index.html" }
