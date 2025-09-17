@@ -1,6 +1,8 @@
 export default function Profile() {
   return `
-    <h1>Profile</h1>
-    <p>Welcome to the Profile page.</p>
+    <div class="profile">
+    <h2>Welcome to the</h2>
+    <h1>Profile Page</h1>
+    </div>
   `;
 }

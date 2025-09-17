@@ -1,6 +1,8 @@
 export default function Hometown() {
   return `
-    <h1>Hometown</h1>
-    <p>Welcome to the Hometown page.</p>
+    <div class="hometown">
+    <h2>Welcome to the</h2>
+    <h1>Hometown Page</h1>
+    </div>
   `;
 }

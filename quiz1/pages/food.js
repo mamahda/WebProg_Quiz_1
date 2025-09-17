@@ -1,6 +1,8 @@
 export default function Food() {
   return `
-    <h1>Local Food</h1>
-    <p>Welcome to the Local Food page.</p>
+    <div class="food">
+      <h2>Welcome to the</h2>
+      <h1>Local Food Page</h1>
+    </div>
   `;
 }
