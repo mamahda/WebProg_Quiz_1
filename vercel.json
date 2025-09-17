@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/quiz1/(.*)", "destination": "/index.html" }
+    { "source": "/quiz1", "destination": "/quiz1/index.html" },
+    { "source": "/quiz1/(.*)", "destination": "/quiz1/index.html" }
   ]
 }
