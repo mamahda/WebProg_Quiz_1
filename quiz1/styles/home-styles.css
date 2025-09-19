@@ -1,0 +1,37 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 5%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to bottom, var(--primary-purple), var(--primary-blue));
+  text-align: center;
+}
+
+.home h1 {
+  color: var(--text-purple);
+  font-weight: 800;
+  font-size: clamp(2.5rem, 6vw, 60px);
+  animation: zoomIn 3s forwards 0.5s;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.home h2 {
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 30px);
+  font-weight: 800;
+  background: var(--gradient-text) border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: zoomIn 1s forwards;
+  color: transparent;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 15px;
+  opacity: 0;
+}

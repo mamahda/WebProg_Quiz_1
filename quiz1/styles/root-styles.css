@@ -1,0 +1,16 @@
+:root {
+  --primary-dark: #000208;
+  --primary-blue: #02052a;
+  --primary-purple: #6C3483;
+  --secondary-purple: #4A235A;
+  --text-purple: #E8DAEF;
+  --gradient-blue: linear-gradient(45deg, rgb(118, 200, 238), rgb(56, 56, 239));
+  --gradient-text: linear-gradient(45deg, rgb(146, 237, 224), rgb(186, 159, 241));
+  --gradient-primary: linear-gradient(to bottom, var(--primary-purple), var(--primary-blue));
+  --white: #ffffff;
+  --black: #000000a;
+}
+
+body {
+  overflow-x: hidden;
+}
