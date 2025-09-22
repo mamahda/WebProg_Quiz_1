@@ -4,15 +4,14 @@
   left: 50%;
   transform: translateX(-50%); 
   z-index: 1000;
-
 }
 
 .navbar-container {
-  background-color: var(--secondary-purple);
+  background-color: var(--secondary-blue);
   padding: 0px 10px;
   border-radius: 30px;
   animation: slideDown 1s;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
@@ -45,7 +44,7 @@
 
 .navbar ul li a {
   text-decoration: none;
-  color: var(--text-purple);
+  color: var(--white);
   font-size: 15px;
   transition: color 0.3s ease, transform 0.3s ease;
 }

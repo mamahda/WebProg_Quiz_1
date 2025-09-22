@@ -17,6 +17,7 @@
     />
 
     <link rel="stylesheet" href="./styles/root-styles.css" />
+    <link rel="stylesheet" href="./styles/profile-styles.css" />
     <link rel="stylesheet" href="./styles/animation.css" />
     <link rel="stylesheet" href="./styles/navbar-styles.css" />
     <link rel="stylesheet" href="./styles/home-styles.css" />
@@ -55,42 +56,7 @@
 
     <div id="app"></div>
 
-    <script type="module">
-      import Home from "./pages/home.js";
-      import Profile from "./pages/profile.js";
-      import Hometown from "./pages/hometown.js";
-      import Food from "./pages/food.js";
-      import Tourist from "./pages/tourist.js";
-
-      const routes = {
-        "/quiz1/": Home(),
-        "/quiz1/profile": Profile(),
-        "/quiz1/hometown": Hometown(),
-        "/quiz1/food": Food(),
-        "/quiz1/tourist": Tourist(),
-      };
-
-      function navigateTo(url) {
-        history.pushState(null, null, url);
-        router();
-      }
-
-      function router() {
-        const path = location.pathname;
-        document.getElementById("app").innerHTML =
-          routes[path] || "<h1>404 - Page Not Found</h1>";
-      }
-
-      document.addEventListener("click", (e) => {
-        if (e.target.matches("[data-link]")) {
-          e.preventDefault();
-          navigateTo(e.target.getAttribute("href"));
-        }
-      });
-
-      window.addEventListener("popstate", router);
-
-      window.addEventListener("DOMContentLoaded", router);
+    <script type="module" src="./main.js">
     </script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
