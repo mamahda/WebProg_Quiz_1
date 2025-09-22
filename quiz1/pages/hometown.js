@@ -10,15 +10,44 @@ export default function Hometown() {
           </div>
         </section>
 
-        <section class="content">
-          <div>
-            <h2>Tentang Kota Ponorogo</h2>
-            <p>Ponorogo adalah sebuah kota di Jawa Timur yang terkenal dengan seni budaya Reog Ponorogo. Kota ini memiliki sejarah panjang dan identitas budaya yang kental, menjadikannya salah satu ikon budaya Indonesia.</p>
-            <p>Selain seni tradisi, Ponorogo juga menawarkan destinasi wisata alam seperti Telaga Ngebel, serta kuliner khas yang memikat hati wisatawan. Suasana kota yang tenang berpadu dengan keramahan masyarakat lokal memberikan pengalaman berbeda bagi pengunjung.</p>
-            <p>Ponorogo menjadi tempat di mana tradisi dan modernitas berpadu. Pembangunan yang terus berjalan tetap menjaga nilai-nilai luhur budaya setempat.</p>
-            <p>Kota ini bukan hanya sekadar tempat tinggal, melainkan juga pusat identitas budaya yang memperkaya keberagaman nusantara.</p>
+        <div class="content">
+          <div class="card reveal">
+            <span class="pill">Deskripsi</span>
+            <div class="band" aria-hidden="true"></div>
+            <h2>Tentang Ponorogo</h2>
+            <p>
+              Kabupaten Ponorogo adalah salah satu kabupaten yang terletak di Provinsi Jawa Timur, Indonesia. Kabupaten ini dikenal sebagai kota budaya dengan julukan Kota Reog, karena menjadi asal dari kesenian tradisional Reog Ponorogo yang terkenal hingga mancanegara. Ponorogo memiliki perpaduan antara budaya, sejarah, dan tradisi yang kuat, sehingga masyarakatnya tetap melestarikan nilai-nilai kearifan lokal dalam kehidupan sehari-hari.
+<br/><br/>
+              Secara geografis, Ponorogo dikelilingi oleh pegunungan dan perbukitan, yang membuat wilayah ini memiliki udara yang sejuk dan pemandangan alam yang indah. Selain Reog, Ponorogo juga terkenal dengan berbagai acara budaya, pasar tradisional, dan kuliner khas seperti Sate Ponorogo dan Mie Lethek. Masyarakatnya dikenal ramah dan menjunjung tinggi gotong royong, sehingga budaya sosial di kabupaten ini masih terasa kuat.
+            </p>
+
+            <span><a href="https://ponorogo.go.id/">Cek Selengkapnya >></a></span>
           </div>
-        </section>
+
+        <div class="grid">
+          <div class="card reveal">
+            <span class="pill">Sejarah</span>
+            <div class="band" aria-hidden="true"></div>
+              <h2>Warisan & Tradisi</h2>
+              <p>
+                Ponorogo terkenal sebagai asal-muasal Reog, sebuah seni pertunjukan yang kuat
+                merepresentasikan identitas masyarakat setempat. Tradisi ini diwariskan
+                turun-temurun dan tetap menjadi pusat kebanggaan budaya kota.
+              </p>
+          </div>
+
+          <div class="card reveal">
+            <span class="pill">Budaya</span>
+            <div class="band" aria-hidden="true"></div>
+              <h2>Kesenian & Kerajinan</h2>
+              <p>
+                Selain Reog, Ponorogo memiliki upacara, musik, dan kerajinan tangan lokal
+                yang memikat. Pagelaran seni sering menjadi ajang berkumpul komunitas dan
+                wisata budaya.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   `;

@@ -31,11 +31,25 @@
 }
 
 @keyframes window {
+  0% {
+    width: 0vw;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    width: 52vw;
+    opacity: 1;
+  }
+}
+
+@keyframes window2 {
   from {
     width: 0vw;
   }
   to {
-    width: 70vw;
+    width: 80vw;
   }
 }
 

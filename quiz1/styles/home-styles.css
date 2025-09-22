@@ -14,12 +14,31 @@
 
 .home h1 {
   background: var(--gradient-primary) border-box;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
   font-weight: 800;
   font-size: clamp(3rem, 6vw, 60px);
   margin-bottom: 20px;
   animation: zoomIn 2s forwards;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  opacity: 0;
+}
+
+.home .description {
+  background-color: antiquewhite;
+  border: 2px solid rgb(209, 196, 180);
+  border-radius: 10px;
+  opacity: 1;
+  animation: window 1s forwards 1s;
+  height: 27px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  opacity: 0;
+}
+
+.home p {
+  animation: fadeIn 2s forwards 2s;
   opacity: 0;
 }
