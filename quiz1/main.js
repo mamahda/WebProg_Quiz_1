@@ -6,6 +6,7 @@ import Tourist from "/quiz1/pages/tourist.js";
 
 const routes = {
   "/quiz1/": Home(),
+  "/quiz1": Home(),
   "/quiz1/profile": Profile(),
   "/quiz1/hometown": Hometown(),
   "/quiz1/food": Food(),
