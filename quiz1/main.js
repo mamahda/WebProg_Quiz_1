@@ -1,8 +1,8 @@
-import Home from "./pages/home.js";
-import Profile from "./pages/profile.js";
-import Hometown from "./pages/hometown.js";
-import Food from "./pages/food.js";
-import Tourist from "./pages/tourist.js";
+import Home from "/quiz1/pages/home.js";
+import Profile from "/quiz1/pages/profile.js";
+import Hometown from "/quiz1/pages/hometown.js";
+import Food from "/quiz1/pages/food.js";
+import Tourist from "/quiz1/pages/tourist.js";
 
 const routes = {
   "/quiz1/": Home(),
