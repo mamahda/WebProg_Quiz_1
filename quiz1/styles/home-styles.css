@@ -39,6 +39,6 @@
 }
 
 .home p {
-  animation: fadeIn 2s forwards 2s;
+  animation: fadeIn 2s forwards 1.5s;
   opacity: 0;
 }

@@ -14,7 +14,7 @@ export default function Hometown() {
             <div class="card">
               <span class="pill">Deskripsi</span>
               <div class="band" aria-hidden="true"></div>
-              <h1>Tentang Ponorogo</h2>
+              <h2>Tentang Ponorogo</h2>
               <p>
                 Kabupaten Ponorogo adalah salah satu kabupaten yang terletak di
                 Provinsi Jawa Timur, Indonesia. Kabupaten ini dikenal sebagai kota
@@ -33,31 +33,33 @@ export default function Hometown() {
                 kabupaten ini masih terasa kuat.
               </p>
 
-              <span><a href="https://ponorogo.go.id/">Cek Selengkapnya >></a></span>
+              <span class="link"><a href="https://ponorogo.go.id/">Cek Selengkapnya >></a></span>
             </div>
 
             <div class="grid">
               <div class="card">
                 <span class="pill">Sejarah</span>
                 <div class="band" aria-hidden="true"></div>
-                <h1>Warisan & Tradisi</h2>
+                <h2>Warisan & Tradisi</h2>
                 <p>
                   Ponorogo terkenal sebagai asal-muasal Reog, sebuah seni
                   pertunjukan yang kuat merepresentasikan identitas masyarakat
                   setempat. Tradisi ini diwariskan turun-temurun dan tetap menjadi
                   pusat kebanggaan budaya kota.
                 </p>
+                <span class="link"><a href="https://id.wikipedia.org/wiki/Reog">Cek Selengkapnya >></a></span>
               </div>
 
               <div class="card reveal">
                 <span class="pill">Budaya</span>
                 <div class="band" aria-hidden="true"></div>
-                <h1>Kesenian & Kerajinan</h2>
+                <h2>Kesenian & Kerajinan</h2>
                 <p>
                   Selain Reog, Ponorogo memiliki upacara, musik, dan kerajinan
                   tangan lokal yang memikat. Pagelaran seni sering menjadi ajang
                   berkumpul komunitas dan wisata budaya.
                 </p>
+                <span class="link"><a href="https://eventdaerah.kemenparekraf.go.id/cerita-ken/cerita/reog-ponorogo">Cek Selengkapnya >></a></span>
               </div>
             </div>
           </div>

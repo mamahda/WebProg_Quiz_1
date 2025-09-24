@@ -92,24 +92,16 @@
   height: 100%;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.05);
-}
 
-.hometown .card h2 {
-  margin: 0 0 12px;
-  font-size: 1.25rem;
-  color: #111827;
-
-}
-.hometown .card p {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.6;
+  position: relative;
+  padding-bottom: 50px;
 }
 
 .hometown .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
+  margin-bottom: -20px;
 }
 
 .hometown .band {
@@ -127,4 +119,20 @@
   font-weight: 600;
   color: var(--muted);
   font-size: 0.82rem;
+}
+
+.hometown .card .link {
+  position: absolute;
+  bottom: 20px;
+  left: 28px;
+  font-weight: 600;
+}
+
+.hometown .card .link a {
+  text-decoration: none;
+}
+
+.hometown .card .link a:hover {
+  text-decoration: underline;
+  color: var(--secondary-blue); 
 }

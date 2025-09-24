@@ -28,6 +28,7 @@ function router() {
     app.innerHTML = routes[path] || "<h1>404 - Page Not Found</h1>";
 
     app.classList.remove("page-out");
+    window.scrollTo(0, 0);
   }, 800);
 }
 
