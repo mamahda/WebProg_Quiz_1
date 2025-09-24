@@ -1,0 +1,126 @@
+.food {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  background: var(--white);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.food .header {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 20vh;
+  margin-top: 190px;
+}
+
+.food .header h1 {
+  background: var(--gradient-primary) border-box;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 800;
+  font-size: clamp(3rem, 6vw, 60px);
+  margin-bottom: 20px;
+  animation: zoomIn 2s forwards;
+  opacity: 0;
+}
+
+.food .header h3 {
+  font-size: 2rem;
+  color: var(--black);
+  font-weight: 600;
+  margin: 0 ;
+  animation: fadeIn 2s forwards;
+  opacity: 0;
+}
+
+.food .slider-container {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 50px;
+}
+
+.food .card-wrapper {
+  display: flex;
+  animation: slide-cards 20s linear infinite;
+  width: max-content;
+  gap: 20px;
+}
+
+.food .card-wrapper:hover {
+  animation-play-state: paused;
+}
+
+/* From Uiverse.io by gharsh11032000 */ 
+.food .card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.food .card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.food .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.food .card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.food .card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.food .card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.food.card:hover svg {
+  scale: 0;
+}
+
+.food .card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}

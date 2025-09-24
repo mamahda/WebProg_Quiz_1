@@ -16,7 +16,6 @@
   to {
     transform: translateY(0);
   }
-  
 }
 
 @keyframes zoomIn {
@@ -79,7 +78,7 @@
 }
 
 @keyframes slideOut {
-  from{
+  from {
     transform: translateY(0);
   }
   to {
@@ -88,7 +87,24 @@
 }
 
 @keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes slide-cards {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* Move left by half (because we duplicated cards) */
+  }
 }
