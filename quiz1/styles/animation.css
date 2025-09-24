@@ -9,7 +9,7 @@
   }
 }
 
-@keyframes slideUp {
+@keyframes slideDown-noOpacity {
   from {
     transform: translateY(-100%);
   }

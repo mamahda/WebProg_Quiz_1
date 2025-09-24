@@ -20,7 +20,7 @@
   height: 102vh;
   width: 100vw;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../assets/reogponorogo-modified.jpg")
+    url("../assets/reogponorogo.jpeg")
       no-repeat center center/cover;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  animation: slideUp 2s forwards;
+  animation: slideDown-noOpacity 2s forwards;
 }
 
 .hometown .wrapper .hero h1 {

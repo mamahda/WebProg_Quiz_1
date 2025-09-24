@@ -9,113 +9,111 @@ export default function Food() {
       <div class="card-wrapper">
         <!-- card 1 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/soto.jpeg"/>
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Soto Borang</p>
+            <p class="card__description">Soto Borang Ponorogo adalah kuliner legendaris yang sudah ada sejak 1983. Berbeda dari soto lainnya, sajian ini memiliki kuah bening gurih dengan isian ayam berbumbu khas serta tambahan perkedel yang membuatnya unik. Hingga kini, Soto Borang tetap menjadi favorit dan selalu ramai dikunjungi pecinta kuliner di Ponorogo.</p>
           </div>
         </div>
 
         <!-- card 2 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/sate.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Sate Ponorogo</p>
+            <p class="card__description">Sate Ponorogo adalah kuliner khas Ponorogo yang terkenal dengan potongan daging ayamnya yang tebal dan memanjang. Daging ayam dibumbui dengan rempah khas, kemudian dipanggang dengan olesan bumbu kacang hingga meresap. Rasanya gurih, manis, dan legit, menjadikannya berbeda dari sate pada umumnya serta menjadi ikon kuliner Ponorogo.</p>
           </div>
         </div>
         
         <!-- card 3 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/pecel.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Pecel Ponorogo</p>
+            <p class="card__description">Pecel Ponorogo adalah hidangan tradisional khas Ponorogo berupa sayuran rebus yang disiram dengan bumbu kacang khas. Bumbu kacangnya dikenal lebih kental, gurih, dan sedikit pedas, sering dilengkapi dengan lauk tambahan seperti tempe, rempeyek, atau nasi. Kesederhanaannya membuat pecel ini menjadi salah satu kuliner favorit masyarakat Ponorogo.</p>
           </div>
         </div>
         
         <!-- card 4 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/gegog.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Sego Gegog</p>
+            <p class="card__description">Sego Gegog adalah kuliner khas Ponorogo berupa nasi yang dibungkus daun pisang bersama lauk sederhana seperti ikan teri, sayuran, atau sambal. Setelah dibungkus, nasi kemudian dikukus sehingga aroma daun pisang meresap ke dalamnya. Rasanya gurih, pedas, dan hangat, menjadikan Sego Gegog sebagai sajian tradisional yang unik sekaligus menggugah selera.</p>
           </div>
         </div>
 
         <!-- card 5 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/getuk.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Gethuk Golan</p>
+            <p class="card__description">Gethuk Golan adalah jajanan tradisional khas Ponorogo yang terbuat dari singkong pilihan. Ciri khasnya terletak pada teksturnya yang kenyal dan rasanya yang manis gurih, biasanya diberi taburan parutan kelapa di atasnya. Kudapan sederhana ini menjadi favorit masyarakat Ponorogo sebagai teman minum teh atau kopi.</p>
           </div>
         </div>
-
+        
         <!-- card 6 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/dawet.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Dawet Jabunug</p>
+            <p class="card__description">Dawet Jabung adalah minuman khas Ponorogo yang berasal dari Desa Jabung. Minuman ini terdiri dari cendol kenyal dengan kuah santan gurih yang dipadu dengan gula merah cair, menghasilkan rasa manis dan segar. Dawet Jabung biasanya disajikan dengan es, menjadikannya pelepas dahaga yang populer terutama saat cuaca panas.</p>
           </div>
         </div>
-
         <!-- Duplicate cards for seamless looping -->
         <!-- card 1 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/soto.jpeg"/>
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Soto Borang</p>
+            <p class="card__description">Soto Borang Ponorogo adalah kuliner legendaris yang sudah ada sejak 1983. Berbeda dari soto lainnya, sajian ini memiliki kuah bening gurih dengan isian ayam berbumbu khas serta tambahan perkedel yang membuatnya unik. Hingga kini, Soto Borang tetap menjadi favorit dan selalu ramai dikunjungi pecinta kuliner di Ponorogo.</p>
           </div>
         </div>
 
         <!-- card 2 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/sate.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Sate Ponorogo</p>
+            <p class="card__description">Sate Ponorogo adalah kuliner khas Ponorogo yang terkenal dengan potongan daging ayamnya yang tebal dan memanjang. Daging ayam dibumbui dengan rempah khas, kemudian dipanggang dengan olesan bumbu kacang hingga meresap. Rasanya gurih, manis, dan legit, menjadikannya berbeda dari sate pada umumnya serta menjadi ikon kuliner Ponorogo.</p>
           </div>
         </div>
         
         <!-- card 3 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/pecel.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Pecel Ponorogo</p>
+            <p class="card__description">Pecel Ponorogo adalah hidangan tradisional khas Ponorogo berupa sayuran rebus yang disiram dengan bumbu kacang khas. Bumbu kacangnya dikenal lebih kental, gurih, dan sedikit pedas, sering dilengkapi dengan lauk tambahan seperti tempe, rempeyek, atau nasi. Kesederhanaannya membuat pecel ini menjadi salah satu kuliner favorit masyarakat Ponorogo.</p>
           </div>
         </div>
         
         <!-- card 4 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/gegog.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Sego Gegog</p>
+            <p class="card__description">Sego Gegog adalah kuliner khas Ponorogo berupa nasi yang dibungkus daun pisang bersama lauk sederhana seperti ikan teri, sayuran, atau sambal. Setelah dibungkus, nasi kemudian dikukus sehingga aroma daun pisang meresap ke dalamnya. Rasanya gurih, pedas, dan hangat, menjadikan Sego Gegog sebagai sajian tradisional yang unik sekaligus menggugah selera.</p>
           </div>
         </div>
 
         <!-- card 5 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/getuk.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Gethuk Golan</p>
+            <p class="card__description">Gethuk Golan adalah jajanan tradisional khas Ponorogo yang terbuat dari singkong pilihan. Ciri khasnya terletak pada teksturnya yang kenyal dan rasanya yang manis gurih, biasanya diberi taburan parutan kelapa di atasnya. Kudapan sederhana ini menjadi favorit masyarakat Ponorogo sebagai teman minum teh atau kopi.</p>
           </div>
         </div>
         
         <!-- card 6 -->
         <div class="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+          <img src="/quiz1/assets/dawet.jpeg"/> 
           <div class="card__content">
-            <p class="card__title">Card Title</p>
-            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <p class="card__title">Dawet Jabunug</p>
+            <p class="card__description">Dawet Jabung adalah minuman khas Ponorogo yang berasal dari Desa Jabung. Minuman ini terdiri dari cendol kenyal dengan kuah santan gurih yang dipadu dengan gula merah cair, menghasilkan rasa manis dan segar. Dawet Jabung biasanya disajikan dengan es, menjadikannya pelepas dahaga yang populer terutama saat cuaca panas.</p>
           </div>
         </div>
-        
       </div>
     </div>
 </div>

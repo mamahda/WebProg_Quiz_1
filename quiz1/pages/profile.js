@@ -4,7 +4,7 @@ export default function Profile() {
       <div class="container">
         <!-- Left section -->
         <div class="left">
-          <div class="avatar"><img src="./assets/fotoku.jpg"/></div>
+          <div class="avatar"><img src="./assets/fotoku.jpeg"/></div>
           <div class="info">
             <h2>Gilbran Mahda</h2>
             <p>Teknik Informarika ITS - 2024</p>
