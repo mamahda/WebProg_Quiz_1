@@ -2,7 +2,7 @@ import Home from "/quiz1/pages/home.js";
 import Profile from "/quiz1/pages/profile.js";
 import Hometown from "/quiz1/pages/hometown.js";
 import Food from "/quiz1/pages/food.js";
-import Tourist from "/quiz1/pages/tourist.js";
+import Tourist, { initTourist } from "/quiz1/pages/tourist.js";
 
 const routes = {
   "/quiz1/": Home(),
@@ -29,6 +29,8 @@ function router() {
 
     app.classList.remove("page-out");
     window.scrollTo(0, 0);
+
+    if (path === "/quiz1/tourist") initTourist();
   }, 800);
 }
 
@@ -38,6 +40,7 @@ document.addEventListener("click", (e) => {
     navigateTo(e.target.getAttribute("href"));
   }
 });
+
 
 window.addEventListener("popstate", router);
 window.addEventListener("DOMContentLoaded", router);

@@ -31,14 +31,14 @@
 
 @keyframes window {
   0% {
-    width: 0vw;
+    width: 0;
     opacity: 0;
   }
   10% {
     opacity: 1;
   }
   100% {
-    width: 52vw;
+    width: 50rem;
     opacity: 1;
   }
 }
@@ -48,7 +48,7 @@
     width: 0vw;
   }
   to {
-    width: 80vw;
+    width: 70rem;
   }
 }
 
@@ -94,5 +94,26 @@
     transform: translateX(
       -50%
     ); 
+  }
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  33% {
+    transform: translateX(-100%);
+  }
+  66% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }

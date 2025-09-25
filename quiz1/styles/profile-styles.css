@@ -14,184 +14,203 @@
 }
 
 .profile .container {
-  font-family: "Montserrat", serif;
   display: flex;
-  padding: 30px;
-  border: 2px solid transparent;
-  border-radius: 30px;
+  padding: 2rem;
+  border: 0.013rem solid transparent;
+  border-radius: 2rem;
   background: var(--white);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  height: 76vh;
-  width: 80vw;
+  box-shadow: 0 0.5rem 1.3rem rgba(0, 0, 0, 0.3);
+  height: 35rem;
+  width: 50rem;
   animation: window2 1s forwards;
+  flex-direction: row;
 }
 
 .profile .left,
 .profile .right {
   background: var(--white);
-  padding: 10px;
-  border-radius: 15px;
+  padding: 0.6rem;
+  border-radius: 1rem;
 }
 
 .profile .left {
   flex: 1;
-  padding-top: 20px;
+  padding-top: 1.3rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: cent;
 }
 
 .profile .left .avatar img {
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   animation: zoomIn 1s forwards 0.8s;
   opacity: 0;
 }
 
-.profile .left .info {
-  text-align: center;
+.profile .left .info h2,
+.profile .left .info p,
+.profile .left .sosmed {
+  opacity: 0;
+  animation: slideDown 1s forwards;
 }
 
 .profile .left .info h2 {
-  margin-bottom: 10px;
+  margin-bottom: 0.6rem;
   font-weight: 600;
   color: var(--secondary-blue);
-  animation: slideDown 1s forwards 1.2s;
-  opacity: 0;
+  animation-delay: 1.2s;
 }
-
 .profile .left .info p {
   color: var(--muted);
-  margin-bottom: 0px;
-  animation: slideDown 1s forwards 1.5s;
+  margin: 0;
+  animation-delay: 1.5s;
+}
+
+.profile .left .sosmed {
+  margin: 10rem 0 0 0;
+  display: flex;
+  gap: 0rem;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
   opacity: 0;
+  animation-delay: 1.8s;
+}
+
+.profile .left .sosmed a {
+  display: flex;
+  margin: 0 0 0 2rem;
+  align-items: center;
+  text-align: left;
+  justify-content: left;
+  height: 2.25rem ;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--secondary-blue);
+  font-size: 0.875rem;
+  flex-direction: row;
+}
+
+.profile .left .sosmed a:hover {
+  text-decoration: underline;
+  color: var(--primary-blue);
+}
+
+.profile .left .sosmed a img {
+  width: 1rem;
+  height: 1rem;
 }
 
 .profile .right {
   flex: 2;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  overflow: hidden; 
+  gap: 1rem;
+  overflow: hidden;
+  height: 96%;
 }
 
-.profile .card {
+.profile .right .card {
   background: rgba(255, 255, 255, 0.04);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 1rem;
+  border-radius: 1rem;
   opacity: 0;
   animation: zoomIn 1s forwards 1.7s;
 }
 
-.profile .card.welcome h2, .profile .card.welcome p, .profile .card.experience h2, .profile .card.experience .timeline {
-  animation: fadeIn 1s forwards 2.7s;
+.profile .card.welcome h2,
+.profile .card.welcome p,
+.profile .card.experience h2,
+.profile .card.experience .timeline {
   opacity: 0;
+  animation: fadeIn 1s forwards 2.7s;
 }
 
-.profile .card.welcome h2{
+.profile .card.welcome {
+  /* box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2); */
+  border: 0.125rem solid rgba(0, 0, 0, 0.05);
+}
+
+.profile .card.welcome h2 {
   text-align: left;
   font-weight: 600;
 }
-
 .profile .card.welcome p {
   text-align: left;
   color: #374151;
   line-height: 1.5;
-  margin-bottom: 0px;
+  margin: 0;
 }
 
 .profile .card.experience {
-  flex: 1;              
-  overflow-y: auto;    
-  max-height: 100%;
-  padding-right: 10px;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 0.6rem;
+  /* box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2); */
+  border: 0.125rem solid rgba(0, 0, 0, 0.05);
 }
 
 .profile .card.experience h2 {
-  padding-bottom: 10px;
+  padding-bottom: 0.6rem;
   text-align: left;
   font-weight: 600;
 }
 
-/* Scrollbar styling */
-.profile .card.experience::-webkit-scrollbar {
-  width: 8px;
-}
-
-.profile .card.experience::-webkit-scrollbar-thumb {
-  background: #9ca3af;
-  border-radius: 10px;
-}
-
-.profile .card.experience::-webkit-scrollbar-thumb:hover {
-  background: #6b7280;
-}
-
-/* Timeline */
 .profile .timeline {
   position: relative;
-  margin-left: 0px;
-  padding-left: 20px;
-  border-left: 2px solid #d1d5db;
-  padding-right: 10px;
+  padding: 0 0.6rem 0 1.3rem;
+  border-left: 0.2rem solid #d1d5db;
 }
 
-/* Timeline item */
 .profile .timeline-item {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 1.5rem;
 }
 
-/* Titik bulat */
 .profile .timeline-item .dot {
   position: absolute;
-  left: -11px;
-  top: 6px;
-  width: 14px;
-  height: 14px;
+  left: -0.7rem;
+  top: 0.5rem;
+  width: 1rem;
+  height: 1rem;
   background: var(--secondary-blue);
   border-radius: 50%;
 }
 
-/* Content box */
 .profile .timeline-item .content {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .profile .timeline-item h3 {
   font-size: 1.125rem;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 0.3rem;
   color: var(--secondary-blue);
 }
 
 .profile .timeline-item .date {
   font-size: 0.875rem;
   color: #6b7280;
-  margin-bottom: 10px;
+  margin-bottom: 0.6rem;
 }
 
-.profile .timeline-item p {
-  color: #374151;
-  margin-bottom: 10px;
-  line-height: 1.5;
+.profile .timeline-item p,
+.profile .timeline-item ul {
   font-size: 0.875rem;
+  color: #374151;
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
 }
 
 .profile .timeline-item ul {
-  list-style-type: disc;
-  margin-left: 0px;
-  color: #374151;
-  line-height: 1.5;
-}
-
-.profile .timeline-item ul li {
+  list-style: disc;
+  margin: 0;
   text-align: left;
 }

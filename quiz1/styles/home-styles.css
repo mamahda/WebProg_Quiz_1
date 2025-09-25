@@ -13,32 +13,31 @@
 }
 
 .home h1 {
-  background: var(--gradient-primary) border-box;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
   font-weight: 800;
-  font-size: clamp(3rem, 6vw, 60px);
-  margin-bottom: 20px;
-  animation: zoomIn 2s forwards;
+  font-size: clamp(3rem, 6vw, 3.75rem);
+  margin-bottom: 1.25rem;
+  background: var(--gradient-home); 
+  background-size: 500% 500%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
   opacity: 0;
+  animation: zoomIn 2s forwards, gradientMove 60s forwards infinite; 
 }
 
 .home .description {
   background-color: antiquewhite;
-  border: 2px solid rgb(209, 196, 180);
-  border-radius: 10px;
-  opacity: 1;
-  animation: window 1s forwards 1s;
-  height: 27px;
-  width: 600px;
-  align-items: center;
-  justify-content: center;
-  width: 0;
+  border: 0.125rem solid rgb(209, 196, 180); 
+  border-radius: 1rem; 
+  height: 1.6875rem; 
+  width: 0; 
   opacity: 0;
+  animation: window 1s forwards 1s;
 }
 
 .home p {
   animation: fadeIn 2s forwards 1.5s;
   opacity: 0;
+  margin: 0.25rem 0 0 0;
 }

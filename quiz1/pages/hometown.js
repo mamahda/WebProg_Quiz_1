@@ -12,7 +12,7 @@ export default function Hometown() {
         <div class="content-wrapper">
           <div class="content">
             <div class="card">
-              <span class="pill">Deskripsi</span>
+              <div class="pill">Deskripsi</div>
               <div class="band" aria-hidden="true"></div>
               <h2>Tentang Ponorogo</h2>
               <p>
@@ -33,12 +33,12 @@ export default function Hometown() {
                 kabupaten ini masih terasa kuat.
               </p>
 
-              <span class="link"><a href="https://ponorogo.go.id/">Cek Selengkapnya >></a></span>
+              <span class="link"><a href="https://ponorogo.go.id/" target="blank">Cek Selengkapnya >></a></span>
             </div>
 
             <div class="grid">
               <div class="card">
-                <span class="pill">Sejarah</span>
+                <div class="pill">Sejarah</div>
                 <div class="band" aria-hidden="true"></div>
                 <h2>Warisan & Tradisi</h2>
                 <p>
@@ -47,11 +47,11 @@ export default function Hometown() {
                   setempat. Tradisi ini diwariskan turun-temurun dan tetap menjadi
                   pusat kebanggaan budaya kota.
                 </p>
-                <span class="link"><a href="https://id.wikipedia.org/wiki/Reog">Cek Selengkapnya >></a></span>
+                <span class="link"><a href="https://id.wikipedia.org/wiki/Reog" target="blank">Cek Selengkapnya >></a></span>
               </div>
 
               <div class="card reveal">
-                <span class="pill">Budaya</span>
+                <div class="pill">Budaya</div>
                 <div class="band" aria-hidden="true"></div>
                 <h2>Kesenian & Kerajinan</h2>
                 <p>
@@ -59,7 +59,7 @@ export default function Hometown() {
                   tangan lokal yang memikat. Pagelaran seni sering menjadi ajang
                   berkumpul komunitas dan wisata budaya.
                 </p>
-                <span class="link"><a href="https://eventdaerah.kemenparekraf.go.id/cerita-ken/cerita/reog-ponorogo">Cek Selengkapnya >></a></span>
+                <span class="link"><a href="https://eventdaerah.kemenparekraf.go.id/cerita-ken/cerita/reog-ponorogo" target="blank">Cek Selengkapnya >></a></span>
               </div>
             </div>
           </div>

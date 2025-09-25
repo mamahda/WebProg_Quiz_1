@@ -11,6 +11,11 @@ export default function Profile() {
             <p>Surabaya, Indonesia</p>
             <p>gilmavira@email.com</p>
           </div>
+          <div class="sosmed">
+            <a href="https://www.instagram.com/gbrn.mhd/" target="_blank"><img src="./assets/instagram.png" alt="Instagram"/><p>@gbrn.mhd</p></a>
+            <a href="https://www.linkedin.com/in/gilbran-mahda/" target="_blank"><img src="./assets/linkedin.png" alt="LinkedIn"/><p>gilbran-mahda</p></a>
+            <a href="https://github.com/mamahda" target="_blank"><img src="./assets/github.png" alt="GitHub"/><p>mamahda</p></a>
+          </div>
         </div>
 
         <!-- Right section -->
